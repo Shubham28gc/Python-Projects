@@ -1,1 +1,25 @@
+print("Welcome to my computer quiz!")
+playing = input("Do you want to play? ")
 
+if playing.lower() != "yes":
+    quit()
+
+print("Okay let's play :)")
+
+answer = input("What does CPU stand for? ").lower()
+if answer == "central processing unit":
+    print("You are correct")
+else:
+    print("Incorrect!")
+
+answer = input("What does IMU stand for? ").lower()
+if answer == "inertial measurement unit":
+    print("You are correct")
+else:
+    print("Incorrect!")
+
+answer = input("What does RAM stand for? ").lower()
+if answer == "random access memory":
+    print("You are correct")
+else:
+    print("Incorrect!")
